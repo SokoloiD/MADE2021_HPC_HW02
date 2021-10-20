@@ -1,0 +1,6 @@
+#!/bin/bash 
+array=(A B C D F G H I J K L M N O P Q R) 
+for i in "${array[@]}"
+do
+	echo $i
+done

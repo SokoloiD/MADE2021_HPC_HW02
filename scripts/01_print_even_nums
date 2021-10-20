@@ -1,0 +1,10 @@
+#!/bin/bash 
+for i in {100..1000}
+do
+	C=$(( $i % 2 ))
+	#echo $C
+
+	if [ "$C" = "0"	]; then
+		echo $i
+	fi
+done

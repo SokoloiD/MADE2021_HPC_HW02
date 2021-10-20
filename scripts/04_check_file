@@ -1,0 +1,11 @@
+#!/bin/bash 
+FNAME="Linux"
+if [  -f $FNAME ]
+then
+    echo "course"
+
+else
+	echo "very easy"
+	echo "cource is easy" > $FNAME
+
+fi
